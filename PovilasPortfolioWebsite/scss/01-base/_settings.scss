@@ -1,0 +1,36 @@
+// global styles
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: 'Brushstrike';
+}
+h1 {
+    font-size: 3rem;
+}
+p {
+    margin: 0 auto;
+}
+section {
+    border: 1px solid red;
+	padding-top: 72px;
+	height: 100vh;
+}
+.section-header {
+    margin-top: 1rem;
+}
+.container {
+    //border: 1px solid red;
+    max-width: 90%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+.row {
+    //border: 1px solid red;
+}

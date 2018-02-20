@@ -1,0 +1,16 @@
+.heading {
+	&.heading-default {}
+	&.heading-primary {}
+	&.heading-secondary {}
+}
+// header styling
+#home {
+	//border: 1px solid red;
+	height: 100vh;
+	padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    //background-image: url("../img/background.jpeg");
+    //background-position: center;
+    //background-repeat: no-repeat;
+    //background-size: cover;
+}

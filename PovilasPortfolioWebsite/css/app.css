@@ -8,9 +8,6 @@ body {
 h1, h2, h3 {
   margin: 0 auto; }
 
-h1, h2 {
-  font-family: 'Brushstrike'; }
-
 h1 {
   font-size: 3rem; }
 
@@ -32,11 +29,19 @@ section {
 
 @font-face {}
 #mainNav {
-  background-color: #008080; }
+  background-color: #008080;
+  padding: 0 1rem; }
 
 .navbar-brand {
   font-family: 'Brushstrike';
   font-size: 2rem; }
+
+.navbar-brand span {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(top, red, orange);
+  background: linear-gradient(top, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 footer {
   background-color: #008080;
@@ -52,7 +57,7 @@ footer {
 #home {
   height: 100vh;
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px); }
+  padding-bottom: calc(10rem - 68px); }
 
 .method-box {
   border: 2px solid #008080;

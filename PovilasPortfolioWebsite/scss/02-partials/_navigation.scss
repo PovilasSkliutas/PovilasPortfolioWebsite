@@ -1,8 +1,16 @@
 // Styling for the navbar
 #mainNav {
     background-color: #008080;
+    padding: 0 1rem;
 }
 .navbar-brand {
     font-family: 'Brushstrike';
     font-size: 2rem;
+}
+.navbar-brand span {
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(top, red, orange);
+	background: linear-gradient(top, red, orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

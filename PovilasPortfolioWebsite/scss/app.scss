@@ -1,17 +1,20 @@
 /* 01. Base */
-@import "01-base/settings";
 @import "01-base/fonts";
 //@import "01-base/helpers";
-//@import "01-base/animations";
+@import "01-base/media-query";
+@import "01-base/settings";
 
-///* 02. Partials/Layout */
-@import "02-partials/navigation";
-@import "02-partials/footer";
+///* 02. Partials */
+@import "02-partials/1-navigation";
+@import "02-partials/2-footer";
 
 /* 03. Components */
-@import "03-components/tiny"; // Very small components
 @import "03-components/heading";
-@import "03-components/section";
+@import "03-components/section-1-about";
+@import "03-components/section-2-services";
+@import "03-components/section-3-portfolio";
+@import "03-components/section-4-contacts";
+@import "03-components/tiny"; // Very small components
 
 ///* 04. Pages */
 //@import "04-pages/home";

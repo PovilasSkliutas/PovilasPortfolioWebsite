@@ -1,0 +1,12 @@
+// Styling for the navbar
+#mainNav {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Rustico';
+    background: -webkit-linear-gradient(top, black, red);
+	background: linear-gradient(top, black, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

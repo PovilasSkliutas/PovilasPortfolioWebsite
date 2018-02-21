@@ -1,0 +1,42 @@
+// section about styling
+#about {
+    position: relative;
+    z-index: 1;
+}
+#about::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background-image: url("../img/keyboard-wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.method-box {
+    border: 2px solid #008080;
+	border-radius: 10px;
+	padding: 0.5rem;
+	margin: 0.75rem;
+	transform: skewX(170deg);
+}
+.method-box:hover {
+	background-color: #2E8B57;
+}
+.method-box span {
+	font-size: 1.5rem;
+	padding-left: 10px;
+}
+.progress {
+	background-color: inherit;
+	border: 1px solid #008080;
+}
+.progress-bar {
+	background-color: #008080;
+	color: black;
+}

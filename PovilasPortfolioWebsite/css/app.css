@@ -1,4 +1,14 @@
 /* 01. Base */
+@font-face {
+  font-family: 'Rustico';
+  src: url("../fonts/Rustico-Regular.otf"); }
+/* For tablets: */
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  section {
+    border: 1px solid red;
+    padding-top: 72px;
+    height: 100vh; } }
 * {
   box-sizing: border-box; }
 
@@ -15,9 +25,7 @@ p {
   margin: 0 auto; }
 
 section {
-  border: 1px solid red;
-  padding-top: 72px;
-  height: 100vh; }
+  border: 1px solid red; }
 
 .section-header {
   margin-top: 1rem; }
@@ -27,19 +35,13 @@ section {
   max-height: 100%;
   margin: 0 auto; }
 
-@font-face {}
 #mainNav {
-  background-color: #008080;
-  padding: 0 1rem; }
+  background-color: white; }
 
 .navbar-brand {
-  font-family: 'Brushstrike';
-  font-size: 2rem; }
-
-.navbar-brand span {
-  font-size: 2.5rem;
-  background: -webkit-linear-gradient(top, red, orange);
-  background: linear-gradient(top, red, orange);
+  font-family: 'Rustico';
+  background: -webkit-linear-gradient(top, black, red);
+  background: linear-gradient(top, black, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -48,16 +50,30 @@ footer {
   text-align: center; }
 
 /* 03. Components */
-.button-down a {
-  color: #2F4F4F; }
-
-.button-down a:hover {
-  color: #2E8B57; }
-
 #home {
+  border: 1px solid red;
   height: 100vh;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 68px); }
+
+#about {
+  position: relative;
+  z-index: 1; }
+
+#about::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background-image: url("../img/keyboard-wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .method-box {
   border: 2px solid #008080;
@@ -112,5 +128,11 @@ footer {
 .contact-box span {
   font-size: 1rem;
   padding-left: 10px; }
+
+.button-down a {
+  color: #2F4F4F; }
+
+.button-down a:hover {
+  color: #2E8B57; }
 
 /*# sourceMappingURL=app.css.map */

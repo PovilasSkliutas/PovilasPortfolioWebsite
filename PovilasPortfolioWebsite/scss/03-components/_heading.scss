@@ -7,6 +7,26 @@
 #home {
 	border: 1px solid red;
 	height: 100vh;
-	padding-top: 10rem;
-    padding-bottom: calc(10rem - 68px);
+	// padding-top: 10rem;
+    // padding-bottom: calc(10rem - 68px);
+}
+
+// carousels styling
+.carousel-indicators li {
+	background-color: #008080;
+}
+
+.carousel-item img {
+	height: 100vh;
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+.carousel-caption {
+	border: 1px solid red;
+	background-color: #008080;
+	color: black;
+	bottom: 40%;
+	left: 50%;
+    text-align: center;
 }

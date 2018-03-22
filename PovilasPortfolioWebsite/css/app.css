@@ -1,7 +1,5 @@
 /* 01. Base */
-@font-face {
-  font-family: 'Rustico';
-  src: url("../fonts/Rustico-Regular.otf"); }
+@font-face {}
 /* For tablets: */
 /* For desktop: */
 @media only screen and (min-width: 768px) {
@@ -16,6 +14,7 @@ body {
   font-family: 'Open Sans', sans-serif; }
 
 h1, h2, h3 {
+  font-weight: bold;
   margin: 0 auto; }
 
 h1 {
@@ -25,21 +24,22 @@ p {
   margin: 0 auto; }
 
 section {
-  border: 1px solid red; }
+  border: 1px solid red;
+  height: 100%; }
 
 .section-header {
   margin-top: 1rem; }
 
 .container {
+  border: 1px solid red;
   max-width: 90%;
   max-height: 100%;
   margin: 0 auto; }
 
 #mainNav {
-  background-color: white; }
+  background-color: #008080; }
 
 .navbar-brand {
-  font-family: 'Rustico';
   background: -webkit-linear-gradient(top, black, red);
   background: linear-gradient(top, black, red);
   -webkit-background-clip: text;
@@ -52,9 +52,24 @@ footer {
 /* 03. Components */
 #home {
   border: 1px solid red;
+  height: 100vh; }
+
+.carousel-indicators li {
+  background-color: #008080; }
+
+.carousel-item img {
   height: 100vh;
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 68px); }
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.carousel-caption {
+  border: 1px solid red;
+  background-color: #008080;
+  color: black;
+  bottom: 40%;
+  left: 50%;
+  text-align: center; }
 
 #about {
   position: relative;

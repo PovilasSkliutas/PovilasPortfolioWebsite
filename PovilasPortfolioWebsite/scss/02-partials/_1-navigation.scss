@@ -1,11 +1,28 @@
 // Styling for the navbar
-#mainNav {
-    background-color: #008080;
+#header-navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+    -webkit-transition: background-color 0.25s ease-out;
+    -moz-transition: background-color 0.25s ease-out;
+    -o-transition: background-color 0.25s ease-out;
+    transition: background-color 0.25s ease-out;
 }
 
-.navbar-brand {
-    background: -webkit-linear-gradient(top, black, red);
-	background: linear-gradient(top, black, red);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.scrolled {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+
+#header-navbar .navbar-brand {
+    color: #00185b;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #34618f;
+    font-weight: bold;
 }

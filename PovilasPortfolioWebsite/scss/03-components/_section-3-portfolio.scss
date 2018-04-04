@@ -1,13 +1,89 @@
 // section 'portfolio' styling
 #portfolio {
-    
+    //height: 100%;
 }
-.portfolio-box {
-    border: 2px solid #008080;
-	border-radius: 10px;
-	margin: 1rem;
-	padding: 0.5rem;
+
+.gallery-item {
+    position: relative;
+    height: 12rem;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+  	background-size: cover;
 }
-.portfolio-box:hover {
-	background-color: #2E8B57;
+.gallery-overlay {
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    color: #fff;
+    background: rgba(159, 156, 151, 0.8);
+    padding: 15px;
+    text-align: center;
+    -webkit-transition: opacity .25s ease-in-out;
+            transition: opacity .25s ease-in-out;
+    opacity: 0;
+}
+.gallery-item:hover .gallery-overlay {
+    color: #00185b;
+    opacity: 1;
+}
+
+.gallery-overlay h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.gallery-overlay p {
+    font-weight: 300;
+    line-height: 24px;
+}
+.gallery-overlay .gallery-window {
+    background: transparent;
+    border: 1px solid #6ba4cc;
+    font-weight: 500;
+    border-radius: 5px;
+    outline: 0;
+    color: #00185b;
+    font-weight: bold;
+    -webkit-transition: .25s;
+            transition: .25s;
+    text-transform: uppercase;
+}
+.gallery-overlay .gallery-window:hover,
+.gallery-overlay .gallery-window:focus {
+    color: #00185b;
+    font-weight: bold;
+    background-color: #6ba4cc;
+    border-radius: 5px;
+    border-color: #00185b;
+    outline: 0;
+}
+
+.project-img-1 {
+    background-image: url("../img/Screenshot from 2018-03-27 09-43-59.png");
+}
+.project-img-2 {
+    background-image: url("../img/Screenshot from 2018-03-27 10-02-04.png");
+}
+.project-img-3 {
+    background-image: url("../img/Screenshot from 2018-03-29 11-22-32.png");
+}
+.project-img-4 {
+    background-image: url("../img/Screenshot from 2018-03-29 11-32-10.png");
+}
+
+
+// button-down styling
+
+.portfolio-section .button-down a {
+	color: #00185b;
+}
+.portfolio-section .button-down a:hover {
+	color: #34618f;
 }

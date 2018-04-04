@@ -1,0 +1,60 @@
+// section 'contact' styling
+
+#contacts {
+background-color: #fff;
+}
+
+#contacts h2 {
+	color: #00185b;
+}
+
+// .contact-section .section-title h2::before {
+//     bottom: 0;
+//     width: 100px;
+//     padding: 4px 0 5px;
+//     border-style: solid;
+//     border-width: 1px 0;
+//     border-color: #fff;
+// 	opacity: 0.67;
+// }
+//
+// .contact-section .section-title h2::after {
+//     bottom: 5px;
+//     width: 200px;
+//     height: 1px;
+//     background-color: #696969;
+// }
+
+.contact-box {
+	margin: 1rem;
+	padding: 0.5rem;
+}
+.contact-form-box {
+	background-color: #C0C0C0;
+    border: 2px solid grey;
+	border-radius: 10px;
+	margin: 1rem;
+	padding: 0.5rem;
+}
+
+.contact-box p {
+	color: #34618f;
+}
+.contact-box span {
+	color: #34618f;
+	font-size: 1rem;
+	padding-left: 10px;
+}
+.input-area label {
+	color: #00185b;
+}
+
+.emsg-1, .emsg-2, .emsg-3 {
+    color: red;
+	font-size: 0.75rem;
+}
+
+.hidden {
+     visibility: hidden;
+
+}

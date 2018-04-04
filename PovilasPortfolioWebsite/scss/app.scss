@@ -9,13 +9,14 @@
 @import "02-partials/2-footer";
 
 /* 03. Components */
-@import "03-components/heading";
-//@import "03-components/carousel";
+@import "03-components/banner";
+@import "03-components/hire-me-modal";
 @import "03-components/section-1-about";
 @import "03-components/section-2-services";
 @import "03-components/section-3-portfolio";
-@import "03-components/section-4-contacts";
-@import "03-components/tiny"; // Very small components
+@import "03-components/section-4-counter";
+@import "03-components/section-5-contacts";
+@import "03-components/validation-error"; // Very small components
 
 ///* 04. Pages */
 //@import "04-pages/home";

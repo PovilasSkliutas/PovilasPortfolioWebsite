@@ -1,0 +1,49 @@
+// HIRE ME Modal styling
+
+#hireMeModal .modal-header {
+    display: inline-block;
+    background-color: #C0C0C0;
+}
+
+#hireMeModal .modal-header p{
+    margin: 0 auto;
+}
+
+#hireMeModal .form-controls input,
+#hireMeModal .form-controls textarea,
+#hireMeModal .form-controls select {
+    width: 100%;
+	min-height: 2rem;
+    margin-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #999999;
+    border: 1px solid #aaa;
+    font-size: 13px;
+    text-indent: 15px;
+    resize: none;
+    background-color: #fff;
+}
+
+#hireMeModal .estimate-container {
+    margin-top: 1rem;
+}
+.estimate-text h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#hireMeModal .estimate-img {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#hireMeModal .estimate-text .radio label {
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.modal-backdrop {
+    position: relative;
+}

@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    10. COUNTER AREA
+\*------------------------------------*/
+#counter {
+    position: relative;
+    z-index: 1;
+    padding: 80px 0 30px;
+    background-color: #000000;
+}
+
+#counter::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.25;
+    background-image: url("../img/bg-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 10.1. COUNTER ITEM */
+.counter-item {
+    margin-bottom: 50px;
+    color: #6ba4cc;
+}
+
+.counter-num {
+    margin-bottom: 7px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.counter-num i.fa {
+    margin-right: 7px;
+}
+
+.counter-text {
+    font-size: 16px;
+}
+
+.couter-box .counter-item {
+    padding: 24px 30px;
+	background-color: #303030;
+}

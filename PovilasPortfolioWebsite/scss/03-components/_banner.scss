@@ -1,4 +1,3 @@
-
 // header styling
 #home {
 
@@ -11,46 +10,34 @@
 
 .ParallaxContainer {
   	background-attachment: fixed;
-  	z-index: -1;
   	height: 100vh;
-  	justify-content: center;
-  	align-items: center;
-  	transform: translateZ(-1px) scale(2);
+    background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
 }
 
 .bg-img-1 {
-    background-image: url("../img/slider-01.jpg");
+    background-image: url("../img/povilasBW.jpeg");
 }
 
-// .bg-img-2 {
-//     background-image: url("../img/keyboard-wallpaper.jpg");
-// }
-
-// .bg-img- {
-//     background-image: url("../img/bg-2.jpg");
-// }
-
-
 .parallax-content {
-    top: 50%;
-    bottom: 50%;
-	max-width: 40%;
-	color: #303030;
+    padding: 1rem;
     font-size: 24px;
     font-weight: 300;
 }
 
 .parallax-content h1 {
-    color: #00185b;
+    color: black;
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 2rem;
-    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    //text-transform: uppercase;
 }
+
 .parallax-content p {
-    color: #34618f;
+    color: black;
+    font-weight: bold;
 }
 
 .ContentContainer {

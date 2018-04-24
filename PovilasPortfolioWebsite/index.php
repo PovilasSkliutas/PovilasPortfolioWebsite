@@ -24,46 +24,48 @@ error_reporting(E_ALL| E_STRICT);
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- HEADER SECTION START-->
-    <div id="header">
-        <nav id="header-navbar" class="navbar navbar-toggleable-md navbar-light fixed-top">
-            <div class="container my-auto">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#home">Povilas Skliutas</a>
+    <nav id="header-navbar" class="navbar navbar-toggleable-md navbar-light fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#home">Povilas Skliutas</a>
 
-                <div id="navbarToggler" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+        <div id="navbarToggler" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- HEADER SECTION END-->
 
     <!-- MAIN SECTION START -->
     <div id="MainContainer">
         <!-- Banner Section start -->
         <div id="home" class="ParallaxContainer bg-img-1 d-flex">
-            <div class="container my-auto">
-                <div class="parallax-content">
-                    <h1><strong>Let's</strong> Build <strong>Something</strong> Great <strong>Together</strong></h1>
-                    <p>I'm the pixel crafter based in Vilnius. I make the visual for web and mobile application to be more interactive.</p>
+            <div class="container banner-section my-auto">
+                <div class="row align-items-left">
+                    <div class="parallax-content col-md-6">
+                        <h1 href="" class="typewrite" data-period="2000" data-type='[ "Hello, Im Povilas!", "Im Creative!", "I Love Design!", "I Love to Develop!" ]'>
+                            <span class="wrap"></span>
+                        </h1>
+                        <p>I'm Front-End Developer who focuses on writing clean, elegant and efficient code. I'm available for your service.</p>
+                        <p><strong>Let's</strong> Build <strong>Something</strong> Great <strong>Together</strong>!</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,24 +81,32 @@ error_reporting(E_ALL| E_STRICT);
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-6 text-left">
-                        <h3>Introduction</h3>
-                        <hr class="my-3">
+                        <!-- <h3>Introduction</h3>
+                        <hr class="my-3"> -->
                         <p class="mb-4">
-                            My name is Povilas Skliutas. I am freelance fron-end developer from Vilnius, Lithuania.
+                            <strong>HELLO</strong>, I am Povilas Sklutas, a freelance Front-End developer from Vilnius, Lithuania.
 
                         </p>
-                        <h3>My skills</h3>
-                        <hr class="my-3">
+                        <!-- <h3>My skills</h3>
+                        <hr class="my-3"> -->
                         <p class="mb-4">
-                            I started programming in 2017. I learned programming at the 3W Academy Vilnius.
+                            I discovered and got interested in programming in 2017. My programmer's career started at 3W Academy courses.
+                            In this academy I have been learning the basics of programming for 60 days.
                             3W Academy courses include five technologies that today are essential for
-                            creating web pages: <span style="font-weight:bold">HTML, CSS, Javascript, MySQL, PHP</span>.
+                            creating web pages:
                         </p>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3 (Boostrap4, Sass)</li>
+                            <li>Javascript (Jquery)</li>
+                            <li>PHP (Laravel)</li>
+                            <li>MySQL</li>
+                        </ul>
                         <hr class="my-3">
                         <!-- Button trigger modal -->
-                        <div class="col-6" style="padding-left: 0px;">
+                        <!-- <div class="col-6" style="padding-left: 0px;">
                             <button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#hireMeModal"> HIRE ME </button>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-md-6">
                         <div class="method-box mx-auto">
@@ -178,20 +188,21 @@ error_reporting(E_ALL| E_STRICT);
                 </div>
                 <div class="row align-items-center">
                     <div class="button-down col text-center">
-                        <a class="btn btn-xl" href="#portfolio"><i class="fas fa-angle-double-down fa-2x"></i></a>
+                        <a class="btn btn-xl" href="#contacts"><i class="fas fa-angle-double-down fa-2x"></i></a>
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- SERVICES Section end -->
 
         <!-- PORTFOLIO Section start -->
-        <div id="portfolio" class="ContentContainer">
+        <!-- <div id="portfolio" class="ContentContainer">
             <div class="container portfolio-section my-auto">
                 <div class="section-title col text-center">
                     <h2 class="section-heading">Awesome Works</h2>
                 </div>
-                <!-- services -->
+
                 <div class="row">
                     <div class="col-md-6 col-lg-3 text-center">
                         <div class="gallery-item project-img-1 mx-auto">
@@ -269,46 +280,46 @@ error_reporting(E_ALL| E_STRICT);
                     <a class="btn btn-xl" href="#contacts"><i class="fas fa-angle-double-down fa-2x"></i></a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- PORTFOLIO Section end -->
 
         <!-- COUNTER Section start -->
         <div id="counter" class="ContentContainer">
-            <div class="container portfolio-section my-auto">
+            <div class="container counter-section my-auto">
                 <!-- Counter Item Start -->
                 <div class="row">
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="counter-item">
                             <div class="counter-num">
-                                <i class="fas fa-flag-checkered"></i>
-                                <span class="CounterUp">10</span>
+                                <i class="fas fa-graduation-cap"></i>
+                                <span class="CounterUp">60</span>
                             </div>
-                            <div class="counter-text">PROJECT COMPLETED</div>
+                            <div class="counter-text">DAYS STUDYING</div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="counter-item">
                             <div class="counter-num">
-                                <i class="far fa-smile"></i>
-                                <span class="CounterUp">10</span>
+                                <i class="fas fa-flag-checkered"></i>
+                                <span class="CounterUp">25</span>
                             </div>
-                            <div class="counter-text">HAPPY CLIENTS</div>
+                            <div class="counter-text">PILOT PROJECTS</div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 text-center">
                         <div class="counter-item">
                             <div class="counter-num">
                                <i class="fas fa-code"></i>
-                               <span class="CounterUp">5000</span>
+                               <span class="CounterUp">6000</span>
                             </div>
                             <div class="counter-text">LINE OF CODE</div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 ">
+                    <div class="col-md-3 col-sm-6 text-center">
                         <div class="counter-item">
                             <div class="counter-num">
                             <i class="fas fa-coffee"></i>
-                            <span class="CounterUp">500</span>
+                            <span class="CounterUp">240</span>
                         </div>
                             <div class="counter-text">CUP OF COFFEE</div>
                         </div>

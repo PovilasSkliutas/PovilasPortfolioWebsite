@@ -25,9 +25,11 @@ body {
 .button-down {
   margin-top: 1rem; }
 
-#header-navbar {
+.navbar {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin: 0 auto;
   -webkit-transition: background-color 0.25s ease-out;
   -moz-transition: background-color 0.25s ease-out;
@@ -36,12 +38,9 @@ body {
 
 .scrolled {
   background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28); }
 
-#header-navbar .navbar-brand {
+.navbar .navbar-brand {
   color: #00185b;
   font-weight: bold; }
 
@@ -62,34 +61,29 @@ footer {
 
 .ParallaxContainer {
   background-attachment: fixed;
-  z-index: -1;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-  transform: translateZ(-1px) scale(2);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .bg-img-1 {
-  background-image: url("../img/slider-01.jpg"); }
+  background-image: url("../img/povilasBW.jpeg"); }
 
 .parallax-content {
-  top: 50%;
-  bottom: 50%;
-  max-width: 40%;
-  color: #303030;
+  padding: 1rem;
   font-size: 24px;
   font-weight: 300; }
 
 .parallax-content h1 {
-  color: #00185b;
+  color: black;
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 2rem;
-  text-transform: uppercase; }
+  font-size: 3rem;
+  font-weight: bold; }
 
 .parallax-content p {
-  color: #34618f; }
+  color: black;
+  font-weight: bold; }
 
 .ContentContainer {
   padding-top: 3rem;
@@ -152,6 +146,11 @@ footer {
 
 #about p {
   color: #34618f; }
+
+#about ul {
+  color: #34618f;
+  font-weight: bold;
+  list-style-type: none; }
 
 .section-title h2:before,
 .section-title h2:after {
@@ -405,7 +404,8 @@ img {
 /* 10.1. COUNTER ITEM */
 .counter-item {
   margin-bottom: 50px;
-  color: #6ba4cc; }
+  color: #6ba4cc;
+  font-weight: bold; }
 
 .counter-num {
   margin-bottom: 7px;
